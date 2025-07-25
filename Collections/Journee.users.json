@@ -1,0 +1,319 @@
+[{
+  "_id": {
+    "$oid": "68809e59dd8ed2f205c2fa02"
+  },
+  "username": "Sudharshini",
+  "email": "Sudha@example.com",
+  "password": "sudha123@password",
+  "profilePic": "https://example.com/pic.jpg",
+  "bio": "Globe trotter | Story collector.",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 12,
+    "entriesCreated": 24
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "In Progress",
+      "progress": 3
+    },
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "Completed"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68809ff4dd8ed2f205c2fa10"
+  },
+  "username": "Hema",
+  "email": "Hema@example.com",
+  "password": "Hema@456password",
+  "profilePic": "https://example1.com/pic.jpg",
+  "bio": "Wanderlust | Passport | Endless Journeys",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 20,
+    "entriesCreated": 34
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "Completed",
+      "progress": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880a044dd8ed2f205c2fa12"
+  },
+  "username": "Afrin",
+  "email": "afrin@example.com",
+  "password": "afrin@789password",
+  "profilePic": "https://example2.com/pic.jpg",
+  "bio": "Adventure fuels my soul",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 15,
+    "entriesCreated": 20
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "In Progress",
+      "progress": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b101dd8ed2f205c2fa30"
+  },
+  "username": "Keerthana",
+  "email": "keerthana@example.com",
+  "password": "keerthana@123",
+  "profilePic": "https://example.com/keerthana.jpg",
+  "bio": "Solo traveler | Photography enthusiast",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 8,
+    "entriesCreated": 15
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "In Progress",
+      "progress": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b102dd8ed2f205c2fa31"
+  },
+  "username": "Shreya",
+  "email": "shreya@example.com",
+  "password": "shreya@456",
+  "profilePic": "https://example.com/shreya.jpg",
+  "bio": "Foodie exploring global cuisines",
+  "isPrivate": true,
+  "travelStats": {
+    "countriesVisited": 5,
+    "entriesCreated": 12
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "In Progress",
+      "progress": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b103dd8ed2f205c2fa32"
+  },
+  "username": "Janani",
+  "email": "janani@example.com",
+  "password": "janani@789",
+  "profilePic": "https://example.com/janani.jpg",
+  "bio": "Luxury travel blogger",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 22,
+    "entriesCreated": 45
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "Completed"
+    },
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "Completed"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b104dd8ed2f205c2fa33"
+  },
+  "username": "Priya",
+  "email": "priya@example.com",
+  "password": "priya@101",
+  "profilePic": "https://example.com/priya.jpg",
+  "bio": "Backpacker on a budget",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 3,
+    "entriesCreated": 8
+  },
+  "challenges": []
+},
+{
+  "_id": {
+    "$oid": "6880b105dd8ed2f205c2fa34"
+  },
+  "username": "Kirthi",
+  "email": "kirthi@example.com",
+  "password": "kirthi@202",
+  "profilePic": "https://example.com/kirthi.jpg",
+  "bio": "Adventure seeker | Scuba diver",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 7,
+    "entriesCreated": 18
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "In Progress",
+      "progress": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b106dd8ed2f205c2fa35"
+  },
+  "username": "Vaishali",
+  "email": "vaishali@example.com",
+  "password": "vaishali@303",
+  "profilePic": "https://example.com/vaishali.jpg",
+  "bio": "Cultural explorer | Heritage lover",
+  "isPrivate": true,
+  "travelStats": {
+    "countriesVisited": 11,
+    "entriesCreated": 23
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "In Progress",
+      "progress": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b107dd8ed2f205c2fa36"
+  },
+  "username": "Koushali",
+  "email": "koushali@example.com",
+  "password": "koushali@404",
+  "profilePic": "https://example.com/koushali.jpg",
+  "bio": "Digital nomad | Travel vlogger",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 15,
+    "entriesCreated": 32
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "Completed"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b108dd8ed2f205c2fa37"
+  },
+  "username": "Jayabharathi",
+  "email": "jayabharathi@example.com",
+  "password": "jayabharathi@505",
+  "profilePic": "https://example.com/jayabharathi.jpg",
+  "bio": "Family traveler | Kid-friendly spots",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 6,
+    "entriesCreated": 14
+  },
+  "challenges": []
+},
+{
+  "_id": {
+    "$oid": "6880b109dd8ed2f205c2fa38"
+  },
+  "username": "Kanishka",
+  "email": "kanishka@example.com",
+  "password": "kanishka@606",
+  "profilePic": "https://example.com/kanishka.jpg",
+  "bio": "Road trip lover | Playlist curator",
+  "isPrivate": false,
+  "travelStats": {
+    "countriesVisited": 4,
+    "entriesCreated": 9
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a72fdd8ed2f205c2fa21"
+      },
+      "title": "Culinary Explorer",
+      "status": "In Progress",
+      "progress": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880b110dd8ed2f205c2fa39"
+  },
+  "username": "Shruthe",
+  "email": "shruthe@example.com",
+  "password": "shruthe@707",
+  "profilePic": "https://example.com/shruthe.jpg",
+  "bio": "Mountain trekker | Nature photographer",
+  "isPrivate": true,
+  "travelStats": {
+    "countriesVisited": 9,
+    "entriesCreated": 21
+  },
+  "challenges": [
+    {
+      "challengeId": {
+        "$oid": "6880a70add8ed2f205c2fa1f"
+      },
+      "title": "Visit 10 Countries",
+      "status": "In Progress",
+      "progress": 9
+    }
+  ]
+}]

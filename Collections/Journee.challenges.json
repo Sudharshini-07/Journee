@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6880a70add8ed2f205c2fa1f"
+  },
+  "title": "Visit 10 Countries",
+  "description": "Travel to at least 10 different countries and document each.",
+  "participants": [
+    {
+      "$oid": "68809e59dd8ed2f205c2fa02"
+    },
+    {
+      "$oid": "68809ff4dd8ed2f205c2fa10"
+    }
+  ],
+  "achievedBy": [
+    {
+      "$oid": "68809ff4dd8ed2f205c2fa10"
+    }
+  ],
+  "badge": "🌍 World Explorer",
+  "type": "travel-count"
+},
+{
+  "_id": {
+    "$oid": "6880a72fdd8ed2f205c2fa21"
+  },
+  "title": "Culinary Explorer",
+  "description": "Try and document dishes from at least 7 different countries—bonus points for uploading a photo and your review for each cuisine.",
+  "participants": [
+    {
+      "$oid": "6880a044dd8ed2f205c2fa12"
+    },
+    {
+      "$oid": "68809e59dd8ed2f205c2fa02"
+    }
+  ],
+  "achievedBy": [
+    {
+      "$oid": "6880a044dd8ed2f205c2fa12"
+    }
+  ],
+  "badge": "🍲 Foodie Adventurer",
+  "type": "food-culture"
+}]

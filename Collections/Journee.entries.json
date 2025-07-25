@@ -1,0 +1,507 @@
+[{
+  "_id": {
+    "$oid": "6880a3dedd8ed2f205c2fa16"
+  },
+  "userId": {
+    "$oid": "68809e59dd8ed2f205c2fa02"
+  },
+  "title": "Sunrise at Eiffel Tower",
+  "content": "Woke up at 5AM to catch the golden hour - totally worth the sleepy eyes! The city was so quiet and magical.",
+  "location": {
+    "name": "Paris, France",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        2.2945,
+        48.8584
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-05-15T00:00:00.000Z"
+  },
+  "mood": "awestruck",
+  "media": [
+    {
+      "url": "https://example.com/paris-sunrise.jpg",
+      "type": "image",
+      "caption": "Golden light on the tower"
+    }
+  ],
+  "tags": [
+    "europe",
+    "landmarks",
+    "sunrise"
+  ],
+  "isPublic": true,
+  "likes": [
+    {
+      "$oid": "68809ff4dd8ed2f205c2fa10"
+    },
+    {
+      "$oid": "6880a044dd8ed2f205c2fa12"
+    }
+  ],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "68809ff4dd8ed2f205c2fa10"
+      },
+      "text": "Stunning! What camera did you use?",
+      "createdAt": {
+        "$date": "2024-05-15T08:30:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6880a8f9dd8ed2f205c2fa24"
+  },
+  "userId": {
+    "$oid": "68809ff4dd8ed2f205c2fa10"
+  },
+  "title": "Maldives Paradise",
+  "content": "Crystal-clear waters and private villas!",
+  "location": {
+    "name": "Malé, Maldives",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.5361,
+        4.1755
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "mood": "relaxed",
+  "tags": [
+    "beach",
+    "luxury"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "6880a905dd8ed2f205c2fa26"
+  },
+  "userId": {
+    "$oid": "6880a044dd8ed2f205c2fa12"
+  },
+  "title": "Everest Base Camp Trek",
+  "content": "Challenging but breathtaking views!",
+  "location": {
+    "name": "Everest Base Camp, Nepal",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        86.925,
+        27.9881
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-04-10T00:00:00.000Z"
+  },
+  "mood": "accomplished",
+  "tags": [
+    "hiking",
+    "adventure"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "688115cbdd8ed2f205c2fa39"
+  },
+  "userId": {
+    "$oid": "6880b101dd8ed2f205c2fa30"
+  },
+  "title": "Cherry Blossoms in Kyoto",
+  "content": "The sakura trees along the Philosopher's Path were breathtaking! Rented a kimono for the full experience.",
+  "location": {
+    "name": "Kyoto, Japan",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        135.7681,
+        35.0116
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-03-28T00:00:00.000Z"
+  },
+  "mood": "peaceful",
+  "media": [
+    {
+      "url": "https://example.com/kyoto-sakura.jpg",
+      "type": "image",
+      "caption": "Pink petals everywhere!"
+    }
+  ],
+  "tags": [
+    "japan",
+    "spring",
+    "culture"
+  ],
+  "isPublic": true,
+  "challengeId": {
+    "$oid": "6880a70add8ed2f205c2fa1f"
+  }
+},
+{
+  "_id": {
+    "$oid": "688115d8dd8ed2f205c2fa3b"
+  },
+  "userId": {
+    "$oid": "6880b102dd8ed2f205c2fa31"
+  },
+  "title": "Pasta Making in Rome",
+  "content": "Learned to make authentic cacio e pepe from a local chef. Bursting with flavor!",
+  "location": {
+    "name": "Rome, Italy",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        12.4964,
+        41.9028
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-04-15T00:00:00.000Z"
+  },
+  "mood": "delighted",
+  "media": [
+    {
+      "url": "https://example.com/rome-pasta.jpg",
+      "type": "image",
+      "caption": "My first homemade pasta"
+    }
+  ],
+  "tags": [
+    "italy",
+    "food",
+    "cooking"
+  ],
+  "isPublic": false,
+  "challengeId": {
+    "$oid": "6880a72fdd8ed2f205c2fa21"
+  }
+},
+{
+  "_id": {
+    "$oid": "688115e3dd8ed2f205c2fa3d"
+  },
+  "userId": {
+    "$oid": "6880b103dd8ed2f205c2fa32"
+  },
+  "title": "Overwater Villa Luxury",
+  "content": "Woke up to fish swimming beneath our glass-floor bedroom! Private butler service was unreal.",
+  "location": {
+    "name": "North Malé Atoll, Maldives",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.3288,
+        4.7065
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-02-10T00:00:00.000Z"
+  },
+  "mood": "pampered",
+  "media": [
+    {
+      "url": "https://example.com/maldives-villa.jpg",
+      "type": "image",
+      "caption": "Sunrise from our deck"
+    },
+    {
+      "url": "https://example.com/maldives-snorkel.mp4",
+      "type": "video",
+      "caption": "Reef right below us"
+    }
+  ],
+  "tags": [
+    "luxury",
+    "beach",
+    "honeymoon"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "688115efdd8ed2f205c2fa3f"
+  },
+  "userId": {
+    "$oid": "6880b104dd8ed2f205c2fa33"
+  },
+  "title": "Ha Long Bay on a Budget",
+  "content": "Booked a $20/night junk boat tour - slept under the stars between limestone karsts!",
+  "location": {
+    "name": "Ha Long Bay, Vietnam",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        107.1833,
+        20.9101
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-01-05T00:00:00.000Z"
+  },
+  "mood": "adventurous",
+  "media": [
+    {
+      "url": "https://example.com/halong-bay.jpg",
+      "type": "image",
+      "caption": "Our tiny but cozy boat"
+    }
+  ],
+  "tags": [
+    "backpacking",
+    "nature",
+    "budget"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "688115fbdd8ed2f205c2fa41"
+  },
+  "userId": {
+    "$oid": "6880b105dd8ed2f205c2fa34"
+  },
+  "title": "Bungee Jumping in Queenstown",
+  "content": "Jumped 134m off Kawarau Bridge! The ultimate adrenaline rush with stunning canyon views.",
+  "location": {
+    "name": "Queenstown, New Zealand",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        168.6626,
+        -45.0312
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-06-20T00:00:00.000Z"
+  },
+  "mood": "thrilled",
+  "media": [
+    {
+      "url": "https://example.com/bungee-jump.mp4",
+      "type": "video",
+      "caption": "My scream echoes for days!"
+    }
+  ],
+  "tags": [
+    "adventure",
+    "extremesports",
+    "ocean"
+  ],
+  "isPublic": true,
+  "challengeId": {
+    "$oid": "6880a70add8ed2f205c2fa1f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881160add8ed2f205c2fa43"
+  },
+  "userId": {
+    "$oid": "6880b106dd8ed2f205c2fa35"
+  },
+  "title": "Inside the Great Pyramid",
+  "content": "Touched the 4,500-year-old stones in the King's Chamber. The energy was mystical!",
+  "location": {
+    "name": "Giza, Egypt",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        31.1342,
+        29.9792
+      ]
+    }
+  },
+  "date": {
+    "$date": "2023-11-12T00:00:00.000Z"
+  },
+  "mood": "awestruck",
+  "media": [
+    {
+      "url": "https://example.com/pyramid-interior.jpg",
+      "type": "image",
+      "caption": "Narrow passage up"
+    }
+  ],
+  "tags": [
+    "history",
+    "unesco",
+    "desert"
+  ],
+  "isPublic": false,
+  "challengeId": {
+    "$oid": "6880a72fdd8ed2f205c2fa21"
+  }
+},
+{
+  "_id": {
+    "$oid": "68811616dd8ed2f205c2fa45"
+  },
+  "userId": {
+    "$oid": "6880b106dd8ed2f205c2fa35"
+  },
+  "title": "Inside the Great Pyramid",
+  "content": "Touched the 4,500-year-old stones in the King's Chamber. The energy was mystical!",
+  "location": {
+    "name": "Giza, Egypt",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        31.1342,
+        29.9792
+      ]
+    }
+  },
+  "date": {
+    "$date": "2023-11-12T00:00:00.000Z"
+  },
+  "mood": "awestruck",
+  "media": [
+    {
+      "url": "https://example.com/pyramid-interior.jpg",
+      "type": "image",
+      "caption": "Narrow passage up"
+    }
+  ],
+  "tags": [
+    "history",
+    "unesco",
+    "desert"
+  ],
+  "isPublic": false,
+  "challengeId": {
+    "$oid": "6880a72fdd8ed2f205c2fa21"
+  }
+},
+{
+  "_id": {
+    "$oid": "68811622dd8ed2f205c2fa47"
+  },
+  "userId": {
+    "$oid": "6880b108dd8ed2f205c2fa37"
+  },
+  "title": "Kids Loved Gardens by the Bay",
+  "content": "The Cloud Forest dome was a hit! Baby enjoyed the waterfall while toddler chased butterflies.",
+  "location": {
+    "name": "Singapore",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        103.8654,
+        1.2816
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-07-10T00:00:00.000Z"
+  },
+  "mood": "happy",
+  "media": [
+    {
+      "url": "https://example.com/singapore-gardens.jpg",
+      "type": "image",
+      "caption": "Family photo in the flower dome"
+    }
+  ],
+  "tags": [
+    "family",
+    "kids",
+    "gardens"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "68811636dd8ed2f205c2fa49"
+  },
+  "userId": {
+    "$oid": "6880b109dd8ed2f205c2fa38"
+  },
+  "title": "Route 66 Road Trip",
+  "content": "Drove from Chicago to LA in a convertible! Best stops: Cadillac Ranch and Seligman ghost town.",
+  "location": {
+    "name": "Arizona, USA",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        -112.0126,
+        35.1983
+      ]
+    }
+  },
+  "date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "mood": "nostalgic",
+  "media": [
+    {
+      "url": "https://example.com/route66-sign.jpg",
+      "type": "image",
+      "caption": "Classic roadside attraction"
+    }
+  ],
+  "tags": [
+    "roadtrip",
+    "usa",
+    "retro"
+  ],
+  "isPublic": true
+},
+{
+  "_id": {
+    "$oid": "68811644dd8ed2f205c2fa4b"
+  },
+  "userId": {
+    "$oid": "6880b110dd8ed2f205c2fa39"
+  },
+  "title": "Annapurna Base Camp Trek",
+  "content": "Reached ABC at 4,130m after 7 days! Frosty mornings but warm chai from teahouses kept us going.",
+  "location": {
+    "name": "Annapurna Sanctuary, Nepal",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        83.8206,
+        28.5256
+      ]
+    }
+  },
+  "date": {
+    "$date": "2023-10-22T00:00:00.000Z"
+  },
+  "mood": "proud",
+  "media": [
+    {
+      "url": "https://example.com/annapurna-view.jpg",
+      "type": "image",
+      "caption": "Sunrise on the Himalayas"
+    }
+  ],
+  "tags": [
+    "trekking",
+    "mountains",
+    "himalayas"
+  ],
+  "isPublic": false,
+  "challengeId": {
+    "$oid": "6880a70add8ed2f205c2fa1f"
+  }
+}]
